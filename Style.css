@@ -1,0 +1,95 @@
+graph {
+fill-color: #ffffff;
+}
+
+node{
+    size: 15px, 15px;
+    fill-mode: image-scaled;
+    fill-image: url('C:\Users\Anastasia\IdeaProjects\SocialGraph\node.png');
+	text-visibility: 0.2;
+	text-visibility-mode: under-zoom;
+	text-alignment: under;
+}
+
+node:clicked {
+     fill-mode: image-scaled;
+     fill-image: url('C:\Users\Anastasia\IdeaProjects\SocialGraph\node2.png');
+     visibility-mode: normal;
+     text-alignment: under;
+}
+
+edge:clicked {
+     fill-color: #002137;
+     text-visibility: 0.75;
+     text-visibility-mode: under-zoom;
+     text-size: 12;
+     text-alignment: under;
+}
+
+edge{
+fill-color: #0095b6;
+text-visibility: 0.3;
+text-visibility-mode: under-zoom;
+text-size: 12;
+text-alignment: under;
+}
+
+node.marked{
+ fill-color: #ffcccc;
+ stroke-color: #ff3333;
+}
+
+edge.marked{
+ fill-mode: image-scaled;
+ fill-image: url('C:\Users\Anastasia\IdeaProjects\SocialGraph\node2.png');
+}
+
+/*
+fill-mode: plain;
+fill-color: #f0f8ff;
+stroke-mode: plain;
+stroke-color: #0095b6;
+shadow-mode: gradient-radial;
+shadow-offset: 3, -2;
+shadow-color: #a8a8a8, #e6e6e6, #f5f5f5;
+
+fill-mode: ; //
+fill-color: ; //
+fill-image: ;  //
+stroke-mode: ; //
+stroke-color: ; //
+stroke-width: ; //
+shadow-mode: ; //
+shadow-color: ; //
+shadow-width: ; //
+shadow-offset: ; //
+text-mode: ; //
+text-color: ; //
+text-style: ; //
+text-font: ; //
+text-size: ; //
+text-visibility-mode: ; //
+text-visibility: ; //
+text-background-mode: ; //
+text-background-color: ; //
+text-offset: ; //
+text-padding: ; //
+icon-mode: ; //
+icon: ; //
+padding: ; //
+z-index: ; //
+visibility-mode: ; //
+visibility: ; //
+shape: ; //
+size: ; //
+size-mode: ; //
+shape-points: ; //
+text-alignment: ; //
+jcomponent: ; //
+arrow-image: ; //
+arrow-size: ; //
+arrow-shape: ; //
+sprite-orientation: ; //
+canvas-color: ; //
+*/
+
